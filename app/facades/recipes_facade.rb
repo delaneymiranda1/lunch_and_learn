@@ -9,11 +9,6 @@ class RecipesFacade
       response = service.recipes_by_country(random_country)
     end
 
-    recipes = response[:hits] || []
-
-    return [] if recipes.empty?
-
-    recipes.map { |recipe| Recipe.new(recipe[:recipe])}
-    
+    response[:hits].map { |recipe| Recipe.new(recipe)}
   end
 end

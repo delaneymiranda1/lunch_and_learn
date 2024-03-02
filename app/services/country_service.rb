@@ -6,7 +6,7 @@ class CountryService
   end
 
   def get_countries
-    get_country = get_url("https://restcountries.com/v3.1/all")
+    response = get_url("https://restcountries.com/v3.1/all")
   end
 
   def get_random_country

@@ -4,8 +4,8 @@ class Recipe
   def initialize(data)
     @id = nil
     @type = 'recipe'
-    @title = data[:title]
-    @url = data[:url]
-    @image = data[:image]
+    @title = data[:recipe][:label]
+    @url = data[:recipe][:url]
+    @image = data[:recipe][:image]
   end
 end
