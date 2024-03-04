@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.edamam.com/api/recipes/v2?app_id=42816136&app_key=edamam&q=jsfklad&random=true&type=public
+    uri: https://api.edamam.com/api/recipes/v2?app_id=21ea4198&app_key=edamam&q=jsfklad&random=true&type=public
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sat, 02 Mar 2024 22:44:11 GMT
+      - Mon, 04 Mar 2024 18:35:06 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -39,9 +39,9 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - dab760ba12ef237008100c5d460018c3
+      - ad97bb292ce2fb9d6c3f7fae2ac32ddd
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Sat, 02 Mar 2024 22:44:11 GMT
+  recorded_at: Mon, 04 Mar 2024 18:35:06 GMT
 recorded_with: VCR 6.2.0
