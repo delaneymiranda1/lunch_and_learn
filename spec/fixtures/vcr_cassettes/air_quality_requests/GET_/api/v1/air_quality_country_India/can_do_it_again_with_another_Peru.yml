@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 04 Mar 2024 18:35:03 GMT
+      - Mon, 04 Mar 2024 18:46:11 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -32,7 +32,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         W3sibmFtZSI6eyJjb21tb24iOiJQZXJ1Iiwib2ZmaWNpYWwiOiJSZXB1YmxpYyBvZiBQZXJ1IiwibmF0aXZlTmFtZSI6eyJheW0iOnsib2ZmaWNpYWwiOiJQaXJ1dyBTdXl1IiwiY29tbW9uIjoiUGlydXcifSwicXVlIjp7Im9mZmljaWFsIjoiUGlydXcgUmlwdXdsaWthIiwiY29tbW9uIjoiUGlydXcifSwic3BhIjp7Im9mZmljaWFsIjoiUmVww7pibGljYSBkZWwgUGVyw7oiLCJjb21tb24iOiJQZXLDuiJ9fX0sInRsZCI6WyIucGUiXSwiY2NhMiI6IlBFIiwiY2NuMyI6IjYwNCIsImNjYTMiOiJQRVIiLCJjaW9jIjoiUEVSIiwiaW5kZXBlbmRlbnQiOnRydWUsInN0YXR1cyI6Im9mZmljaWFsbHktYXNzaWduZWQiLCJ1bk1lbWJlciI6dHJ1ZSwiY3VycmVuY2llcyI6eyJQRU4iOnsibmFtZSI6IlBlcnV2aWFuIHNvbCIsInN5bWJvbCI6IlMvICJ9fSwiaWRkIjp7InJvb3QiOiIrNSIsInN1ZmZpeGVzIjpbIjEiXX0sImNhcGl0YWwiOlsiTGltYSJdLCJhbHRTcGVsbGluZ3MiOlsiUEUiLCJSZXB1YmxpYyBvZiBQZXJ1IiwiUmVww7pibGljYSBkZWwgUGVyw7oiXSwicmVnaW9uIjoiQW1lcmljYXMiLCJzdWJyZWdpb24iOiJTb3V0aCBBbWVyaWNhIiwibGFuZ3VhZ2VzIjp7ImF5bSI6IkF5bWFyYSIsInF1ZSI6IlF1ZWNodWEiLCJzcGEiOiJTcGFuaXNoIn0sInRyYW5zbGF0aW9ucyI6eyJhcmEiOnsib2ZmaWNpYWwiOiLYrNmF2YfZiNix2YrYqSDYqNmK2LHZiCIsImNvbW1vbiI6Itio2YrYsdmIIn0sImJyZSI6eyJvZmZpY2lhbCI6IlJlcHVibGlrIFBlcm91IiwiY29tbW9uIjoiUGVyb3UifSwiY2VzIjp7Im9mZmljaWFsIjoiUGVydcOhbnNrw6EgcmVwdWJsaWthIiwiY29tbW9uIjoiUGVydSJ9LCJjeW0iOnsib2ZmaWNpYWwiOiJSZXB1YmxpYyBvZiBQZXJ1IiwiY29tbW9uIjoiUGVydSJ9LCJkZXUiOnsib2ZmaWNpYWwiOiJSZXB1YmxpayBQZXJ1IiwiY29tbW9uIjoiUGVydSJ9LCJlc3QiOnsib2ZmaWNpYWwiOiJQZXJ1dSBWYWJhcmlpayIsImNvbW1vbiI6IlBlcnV1In0sImZpbiI6eyJvZmZpY2lhbCI6IlBlcnVuIHRhc2F2YWx0YSIsImNvbW1vbiI6IlBlcnUifSwiZnJhIjp7Im9mZmljaWFsIjoiUsOpcHVibGlxdWUgZHUgUMOpcm91IiwiY29tbW9uIjoiUMOpcm91In0sImhydiI6eyJvZmZpY2lhbCI6IlJlcHVibGlrYSBQZXJ1IiwiY29tbW9uIjoiUGVydSJ9LCJodW4iOnsib2ZmaWNpYWwiOiJQZXJ1aSBLw7Z6dMOhcnNhc8OhZyIsImNvbW1vbiI6IlBlcnUifSwiaXRhIjp7Im9mZmljaWFsIjoiUmVwdWJibGljYSBkZWwgUGVyw7kiLCJjb21tb24iOiJQZXLDuSJ9LCJqcG4iOnsib2ZmaWNpYWwiOiLjg5rjg6vjg7zlhbHlkozlm70iLCJjb21tb24iOiLjg5rjg6vjg7wifSwia29yIjp7Im9mZmljaWFsIjoi7Y6Y66OoIOqzte2ZlOq1rSIsImNvbW1vbiI6Iu2OmOujqCJ9LCJubGQiOnsib2ZmaWNpYWwiOiJSZXB1YmxpZWsgUGVydSIsImNvbW1vbiI6IlBlcnUifSwicGVyIjp7Im9mZmljaWFsIjoi2KzZhdmH2YjYsduMINm+2LHZiCIsImNvbW1vbiI6Itm+2LHZiCJ9LCJwb2wiOnsib2ZmaWNpYWwiOiJSZXB1Ymxpa2EgUGVydSIsImNvbW1vbiI6IlBlcnUifSwicG9yIjp7Im9mZmljaWFsIjoiUmVww7pibGljYSBkbyBQZXJ1IiwiY29tbW9uIjoiUGVyw7oifSwicnVzIjp7Im9mZmljaWFsIjoi0KDQtdGB0L/Rg9Cx0LvQuNC60LAg0J/QtdGA0YMiLCJjb21tb24iOiLQn9C10YDRgyJ9LCJzbGsiOnsib2ZmaWNpYWwiOiJQZXJ1w6Fuc2thIHJlcHVibGlrYSIsImNvbW1vbiI6IlBlcnUifSwic3BhIjp7Im9mZmljaWFsIjoiUmVww7pibGljYSBkZSBQZXLDuiIsImNvbW1vbiI6IlBlcsO6In0sInNycCI6eyJvZmZpY2lhbCI6ItCg0LXQv9GD0LHQu9C40LrQsCDQn9C10YDRgyIsImNvbW1vbiI6ItCf0LXRgNGDIn0sInN3ZSI6eyJvZmZpY2lhbCI6IlJlcHVibGlrZW4gUGVydSIsImNvbW1vbiI6IlBlcnUifSwidHVyIjp7Im9mZmljaWFsIjoiUGVydSBDdW1odXJpeWV0aSIsImNvbW1vbiI6IlBlcnUifSwidXJkIjp7Im9mZmljaWFsIjoi2KzZhduB2YjYsduM24Eg2b7bjNix2YgiLCJjb21tb24iOiLZvtuM2LHZiCJ9LCJ6aG8iOnsib2ZmaWNpYWwiOiLnp5jpsoHlhbHlkozlm70iLCJjb21tb24iOiLnp5jpsoEifX0sImxhdGxuZyI6Wy0xMC4wLC03Ni4wXSwibGFuZGxvY2tlZCI6ZmFsc2UsImJvcmRlcnMiOlsiQk9MIiwiQlJBIiwiQ0hMIiwiQ09MIiwiRUNVIl0sImFyZWEiOjEyODUyMTYuMCwiZGVtb255bXMiOnsiZW5nIjp7ImYiOiJQZXJ1dmlhbiIsIm0iOiJQZXJ1dmlhbiJ9LCJmcmEiOnsiZiI6IlDDqXJ1dmllbm5lIiwibSI6IlDDqXJ1dmllbiJ9fSwiZmxhZyI6Ilx1RDgzQ1x1RERGNVx1RDgzQ1x1RERFQSIsIm1hcHMiOnsiZ29vZ2xlTWFwcyI6Imh0dHBzOi8vZ29vLmdsL21hcHMvdURXRVVhWE5jWlRuZzFmUDYiLCJvcGVuU3RyZWV0TWFwcyI6Imh0dHBzOi8vd3d3Lm9wZW5zdHJlZXRtYXAub3JnL3JlbGF0aW9uLzI4ODI0NyJ9LCJwb3B1bGF0aW9uIjozMjk3MTg0NiwiZ2luaSI6eyIyMDE5Ijo0MS41fSwiZmlmYSI6IlBFUiIsImNhciI6eyJzaWducyI6WyJQRSJdLCJzaWRlIjoicmlnaHQifSwidGltZXpvbmVzIjpbIlVUQy0wNTowMCJdLCJjb250aW5lbnRzIjpbIlNvdXRoIEFtZXJpY2EiXSwiZmxhZ3MiOnsicG5nIjoiaHR0cHM6Ly9mbGFnY2RuLmNvbS93MzIwL3BlLnBuZyIsInN2ZyI6Imh0dHBzOi8vZmxhZ2Nkbi5jb20vcGUuc3ZnIiwiYWx0IjoiVGhlIGZsYWcgb2YgUGVydSBpcyBjb21wb3NlZCBvZiB0aHJlZSBlcXVhbCB2ZXJ0aWNhbCBiYW5kcyBvZiByZWQsIHdoaXRlIGFuZCByZWQsIHdpdGggdGhlIG5hdGlvbmFsIGVtYmxlbSBjZW50ZXJlZCBpbiB0aGUgd2hpdGUgYmFuZC4ifSwiY29hdE9mQXJtcyI6eyJwbmciOiJodHRwczovL21haW5mYWN0cy5jb20vbWVkaWEvaW1hZ2VzL2NvYXRzX29mX2FybXMvcGUucG5nIiwic3ZnIjoiaHR0cHM6Ly9tYWluZmFjdHMuY29tL21lZGlhL2ltYWdlcy9jb2F0c19vZl9hcm1zL3BlLnN2ZyJ9LCJzdGFydE9mV2VlayI6Im1vbmRheSIsImNhcGl0YWxJbmZvIjp7ImxhdGxuZyI6Wy0xMi4wNSwtNzcuMDVdfSwicG9zdGFsQ29kZSI6eyJmb3JtYXQiOiIjIyMjIyIsInJlZ2V4IjoiXihcXGR7NX0pJCJ9fV0=
-  recorded_at: Mon, 04 Mar 2024 18:35:03 GMT
+  recorded_at: Mon, 04 Mar 2024 18:46:11 GMT
 - request:
     method: get
     uri: http://api.openweathermap.org/geo/1.0/direct?appid=be564001d80121d6f14912a80c2e7fd4&limit=1&q=Lima,
@@ -54,7 +54,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 04 Mar 2024 18:35:03 GMT
+      - Mon, 04 Mar 2024 18:46:11 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -72,8 +72,8 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3sibmFtZSI6IkxpbWEiLCJsb2NhbF9uYW1lcyI6eyJlbCI6Is6bzq/OvM6xIiwic3YiOiJMaW1hIiwidGgiOiLguKXguLTguKHguLIiLCJtayI6ItCb0LjQvNCwIiwiZW4iOiJMaW1hIiwidXIiOiLZhNuM2YXYpyIsInVnIjoi2YTZidmF2KciLCJhciI6ItmE2YrZhdinIiwiaXMiOiJMw61tYSIsImFtIjoi4YiK4YibIiwiZGUiOiJMaW1hIiwiZXMiOiJMaW1hIiwidWsiOiLQm9GW0LzQsCIsImZhIjoi2YTbjNmF2KciLCJ5aSI6Itec15nXnteQIiwic3IiOiLQm9C40LzQsCIsImVvIjoiTGltbyIsImFiIjoi0JvQuNC80LAiLCJoaSI6IuCksuClgOCkruCkviIsImt1IjoiTMOubWEiLCJydSI6ItCb0LjQvNCwIiwiZnIiOiJMaW1hIiwidGwiOiJMdW5nc29kIG5nIExpbWEiLCJrYSI6IuGDmuGDmOGDm+GDkCIsImJuIjoi4Kay4Ka/4Kau4Ka+IiwiaHUiOiJMaW1hIiwiaGUiOiLXnNeZ157XlCIsImphIjoi44Oq44OeIiwiZ2EiOiJMw61vbWEiLCJrbyI6IuumrOuniCIsIm9jIjoiTGltYSIsIm1sIjoi4LSy4LS/4LSuIiwiYm8iOiLgvaPgvbLgvIvgvZjgvI0iLCJwbCI6IkxpbWEiLCJvcyI6ItCb0LjQvMOmIiwiY3YiOiLQm9C40LzQsCIsImJnIjoi0JvQuNC80LAiLCJ0YSI6IuCusuCuv+CuruCuviIsInpoIjoi5Yip6aasL+WIqemprCIsImJlIjoi0JvRltC80LAiLCJtciI6IuCksuCkv+CkruCkviIsImh5Ijoi1LzVq9W01aEifSwibGF0IjotMTIuMDYyMTA2NSwibG9uIjotNzcuMDM2NTI1NiwiY291bnRyeSI6IlBFIiwic3RhdGUiOiJMaW1hIn1d
-  recorded_at: Mon, 04 Mar 2024 18:35:03 GMT
+        W3sibmFtZSI6IkxpbWEiLCJsb2NhbF9uYW1lcyI6eyJlcyI6IkxpbWEiLCJ0aCI6IuC4peC4tOC4oeC4siIsImh5Ijoi1LzVq9W01aEiLCJjdiI6ItCb0LjQvNCwIiwiaGUiOiLXnNeZ157XlCIsIm1rIjoi0JvQuNC80LAiLCJwbCI6IkxpbWEiLCJhciI6ItmE2YrZhdinIiwibXIiOiLgpLLgpL/gpK7gpL4iLCJtbCI6IuC0suC0v+C0riIsInVyIjoi2YTbjNmF2KciLCJ1ZyI6ItmE2YnZhdinIiwicnUiOiLQm9C40LzQsCIsInRsIjoiTHVuZ3NvZCBuZyBMaW1hIiwiYmUiOiLQm9GW0LzQsCIsImZhIjoi2YTbjNmF2KciLCJkZSI6IkxpbWEiLCJrdSI6IkzDrm1hIiwiYmciOiLQm9C40LzQsCIsImVuIjoiTGltYSIsImVvIjoiTGltbyIsImphIjoi44Oq44OeIiwia2EiOiLhg5rhg5jhg5vhg5AiLCJibyI6IuC9o+C9suC8i+C9mOC8jSIsInVrIjoi0JvRltC80LAiLCJvYyI6IkxpbWEiLCJodSI6IkxpbWEiLCJlbCI6Is6bzq/OvM6xIiwiZ2EiOiJMw61vbWEiLCJoaSI6IuCksuClgOCkruCkviIsInpoIjoi5Yip6aasL+WIqemprCIsImtvIjoi66as66eIIiwic3IiOiLQm9C40LzQsCIsImFtIjoi4YiK4YibIiwiYm4iOiLgprLgpr/gpq7gpr4iLCJ0YSI6IuCusuCuv+CuruCuviIsImZyIjoiTGltYSIsImFiIjoi0JvQuNC80LAiLCJvcyI6ItCb0LjQvMOmIiwieWkiOiLXnNeZ157XkCIsInN2IjoiTGltYSIsImlzIjoiTMOtbWEifSwibGF0IjotMTIuMDYyMTA2NSwibG9uIjotNzcuMDM2NTI1NiwiY291bnRyeSI6IlBFIiwic3RhdGUiOiJMaW1hIn1d
+  recorded_at: Mon, 04 Mar 2024 18:46:11 GMT
 - request:
     method: get
     uri: http://api.openweathermap.org/data/2.5/air_pollution?appid=be564001d80121d6f14912a80c2e7fd4&lat=-12.0621065&lon=-77.0365256
@@ -95,11 +95,11 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 04 Mar 2024 18:35:03 GMT
+      - Mon, 04 Mar 2024 18:46:11 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '193'
+      - '192'
       Connection:
       - keep-alive
       X-Cache-Key:
@@ -112,6 +112,6 @@ http_interactions:
       - GET, POST
     body:
       encoding: UTF-8
-      string: '{"coord":{"lon":-77.0365,"lat":-12.0621},"list":[{"main":{"aqi":2},"components":{"co":300.41,"no":3.24,"no2":7.45,"o3":56.51,"so2":7.33,"pm2_5":10.88,"pm10":29.48,"nh3":7.79},"dt":1709576760}]}'
-  recorded_at: Mon, 04 Mar 2024 18:35:03 GMT
+      string: '{"coord":{"lon":-77.0365,"lat":-12.0621},"list":[{"main":{"aqi":2},"components":{"co":290.39,"no":3.13,"no2":6.34,"o3":47.92,"so2":5.66,"pm2_5":7.54,"pm10":23.59,"nh3":6.78},"dt":1709577949}]}'
+  recorded_at: Mon, 04 Mar 2024 18:46:11 GMT
 recorded_with: VCR 6.2.0

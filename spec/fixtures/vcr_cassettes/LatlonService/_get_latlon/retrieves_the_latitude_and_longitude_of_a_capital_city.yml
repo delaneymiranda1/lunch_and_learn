@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=be564001d80121d6f14912a80c2e7fd4&limit=1&q=Denver,80110
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Mon, 04 Mar 2024 18:46:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '525'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=denver%2c80110"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6IkRlbnZlciIsImxvY2FsX25hbWVzIjp7ImhpIjoi4KSh4KWF4KSo4KS14KSwIiwiYm4iOiLgpqHgp4fgpqjgpq3gpr7gprAiLCJwbCI6IkRlbnZlciIsInJ1Ijoi0JTQtdC90LLQtdGAIiwib2MiOiJEZW52ZXIiLCJqYSI6IuODh+ODs+ODkOODvCIsImVuIjoiRGVudmVyIiwia28iOiLrjbTrsoQiLCJ1ayI6ItCU0LXQvdCy0LXRgCIsImVzIjoiRGVudmVyIiwiemgiOiLkuLnkvZvljr8gLyDkuLnkvZvpg6EiLCJzciI6ItCU0LXQvdCy0LXRgCIsInVyIjoi2ojbjNmG2YjYsSIsImVsIjoizp3PhM6tzr3Oss61z4EiLCJtciI6IuCkoeClh+CkqOCljeCkteCljeCkueCksCIsImVvIjoiRGVudmVybyIsInBzIjoi2onZhtmI2LEiLCJhciI6Itiv2YbZgdixIiwidGUiOiLgsKHgsYbgsKjgsY3gsLXgsLDgsY0iLCJ0YSI6IuCun+CvhuCuqeCvjeCuteCusOCvjSIsImZhIjoi2K/ZhtmI2LEifSwibGF0IjozOS43MzkyMzY0LCJsb24iOi0xMDQuOTg0ODYyLCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkNvbG9yYWRvIn1d
+  recorded_at: Mon, 04 Mar 2024 18:46:15 GMT
+recorded_with: VCR 6.2.0
