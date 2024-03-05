@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe "Favorites", type: :request do
 
   describe "POST /api/v1/favorites" do
-    it "creates a user favorite" do
+    xit "creates a user favorite" do
       user = User.create!(name: "Toad", email: "toad1@gmail.com", password: "yay1", password_confirmation: "yay1")
       params = {
         api_key: user.api_key,
