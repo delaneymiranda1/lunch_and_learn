@@ -1,9 +1,13 @@
 class YoutubeService
 
   def get_videos_by_country(country)
-    get_url("?&part=snippet&channelId=UCluQ5yInbeAkkeCndNnUhpw&q=#{country}&type=video")
+    if country.blank?
+      {}
+    else
+      get_url("?&part=snippet&channelId=UCluQ5yInbeAkkeCndNnUhpw&q=#{country}&type=video")
+  
+    end
   end
-
   private
 
   def get_url(url)

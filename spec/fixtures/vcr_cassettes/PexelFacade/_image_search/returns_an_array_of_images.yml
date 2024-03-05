@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 05 Mar 2024 19:35:09 GMT
+      - Tue, 05 Mar 2024 20:20:39 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -29,19 +29,19 @@ http_interactions:
       Connection:
       - keep-alive
       Cf-Ray:
-      - 85fc8c2a3c891f24-DEN
+      - 85fcced1f9207984-DEN
       Cf-Cache-Status:
       - HIT
       Access-Control-Allow-Origin:
       - "*"
       Age:
-      - '1320'
+      - '4050'
       Cache-Control:
       - max-age=86400
       Etag:
       - W/"020dafbdffbe80369aca33d4ac2eb624"
       Expires:
-      - Wed, 06 Mar 2024 19:35:09 GMT
+      - Wed, 06 Mar 2024 20:20:39 GMT
       Access-Control-Allow-Headers:
       - Accept, Content-Type, Content-Length, Accept-Encoding, Authorization, User-Agent
       X-Frame-Options:
@@ -49,7 +49,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '25000'
       X-Ratelimit-Remaining:
-      - '24957'
+      - '24935'
       X-Ratelimit-Reset:
       - '1712257988'
       X-Request-Id:
@@ -59,8 +59,8 @@ http_interactions:
       X-Server:
       - bulldog
       Set-Cookie:
-      - __cf_bm=FC1OLoVZvcfTBvU9ALeUDTp5OCXopzIiqgJSQvhFULY-1709667309-1.0.1.1-WeQ2WnogPnk_0atNtdIRS4AYj.yoPC3PUuqUlqLVsL.YNnCxxfyjIGyHxS3M8HaABjVld4wLHlXYIZvaaSGIRw;
-        path=/; expires=Tue, 05-Mar-24 20:05:09 GMT; domain=.pexels.com; HttpOnly;
+      - __cf_bm=jhOYCJtw2cBX2Xru5GO6jJ9fOVIXcZJloRF5Fq283mE-1709670039-1.0.1.1-MeBBHdIMHtvovf3ClmHCHaYbGKv.evO5GMa0GJZwNcYzjw_lhXR9GfOArPaAHRDeawkGgbx448hkv05p6hC7Pg;
+        path=/; expires=Tue, 05-Mar-24 20:50:39 GMT; domain=.pexels.com; HttpOnly;
         Secure; SameSite=None
       Vary:
       - Accept-Encoding
@@ -89,5 +89,5 @@ http_interactions:
         Atsaradorn","photographer_url":"https://www.pexels.com/@surawitch-atsaradorn-590571","photographer_id":590571,"avg_color":"#8C9698","src":{"original":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg","large2x":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Pineapple
         Beside Pink Flower"},{"id":2108831,"width":4643,"height":2790,"url":"https://www.pexels.com/photo/tourists-riding-a-boat-2108831/","photographer":"Streetwindy","photographer_url":"https://www.pexels.com/@streetwindy","photographer_id":258084,"avg_color":"#958C83","src":{"original":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg","large2x":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Tourists
         Riding a Boat"}],"total_results":1271,"next_page":"https://api.pexels.com/v1/search/?page=2\u0026per_page=10\u0026query=thailand\u0026size=medium"}'
-  recorded_at: Tue, 05 Mar 2024 19:35:09 GMT
+  recorded_at: Tue, 05 Mar 2024 20:20:39 GMT
 recorded_with: VCR 6.2.0

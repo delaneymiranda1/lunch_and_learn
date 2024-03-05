@@ -2,51 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?channelId=UCluQ5yInbeAkkeCndNnUhpw&key=youtube&part=snippet&q=&type=video
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Vary:
-      - Origin
-      - Referer
-      - X-Origin
-      Date:
-      - Tue, 05 Mar 2024 19:35:11 GMT
-      Server:
-      - scaffolding on HTTPServer2
-      Cache-Control:
-      - private
-      X-Xss-Protection:
-      - '0'
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Content-Type-Options:
-      - nosniff
-      Alt-Svc:
-      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        ewogICJraW5kIjogInlvdXR1YmUjc2VhcmNoTGlzdFJlc3BvbnNlIiwKICAiZXRhZyI6ICJRZTBza2xjQ2NGRmZ6ZU52a3FuZWQ0emJVWWciLAogICJuZXh0UGFnZVRva2VuIjogIkNBVVFBQSIsCiAgInJlZ2lvbkNvZGUiOiAiVVMiLAogICJwYWdlSW5mbyI6IHsKICAgICJ0b3RhbFJlc3VsdHMiOiAxODQsCiAgICAicmVzdWx0c1BlclBhZ2UiOiA1CiAgfSwKICAiaXRlbXMiOiBbCiAgICB7CiAgICAgICJraW5kIjogInlvdXR1YmUjc2VhcmNoUmVzdWx0IiwKICAgICAgImV0YWciOiAieXNxTXVKR2pHUU0tc2VNNkYwMUhiSFZkS1ZFIiwKICAgICAgImlkIjogewogICAgICAgICJraW5kIjogInlvdXR1YmUjdmlkZW8iLAogICAgICAgICJ2aWRlb0lkIjogIlB2ZWZ5SVhmcWVrIgogICAgICB9LAogICAgICAic25pcHBldCI6IHsKICAgICAgICAicHVibGlzaGVkQXQiOiAiMjAyMS0xMi0xM1QyMToxNjoyNloiLAogICAgICAgICJjaGFubmVsSWQiOiAiVUNsdVE1eUluYmVBa2tlQ25kTm5VaHB3IiwKICAgICAgICAidGl0bGUiOiAiQSBTdXBlciBRdWljayBIaXN0b3J5IG9mIHRoZSBNYWxkaXZlcyIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIlBpY3R1cmVzIFJlcXVpcmluZyBBdHRyaWJ1dGlvbjogR3NuZXdpZDogaHR0cHM6Ly9jb21tb25zLndpa2ltZWRpYS5vcmcvd2lraS9GaWxlOkNvY29udXRfVHJlZV9pbl9UYW1pbG5hZHUuanBnIEluZHVuaWwgLi4uIiwKICAgICAgICAidGh1bWJuYWlscyI6IHsKICAgICAgICAgICJkZWZhdWx0IjogewogICAgICAgICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvUHZlZnlJWGZxZWsvZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiAxMjAsCiAgICAgICAgICAgICJoZWlnaHQiOiA5MAogICAgICAgICAgfSwKICAgICAgICAgICJtZWRpdW0iOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9QdmVmeUlYZnFlay9tcWRlZmF1bHQuanBnIiwKICAgICAgICAgICAgIndpZHRoIjogMzIwLAogICAgICAgICAgICAiaGVpZ2h0IjogMTgwCiAgICAgICAgICB9LAogICAgICAgICAgImhpZ2giOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9QdmVmeUlYZnFlay9ocWRlZmF1bHQuanBnIiwKICAgICAgICAgICAgIndpZHRoIjogNDgwLAogICAgICAgICAgICAiaGVpZ2h0IjogMzYwCiAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICAiY2hhbm5lbFRpdGxlIjogIk1yIEhpc3RvcnkiLAogICAgICAgICJsaXZlQnJvYWRjYXN0Q29udGVudCI6ICJub25lIiwKICAgICAgICAicHVibGlzaFRpbWUiOiAiMjAyMS0xMi0xM1QyMToxNjoyNloiCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJraW5kIjogInlvdXR1YmUjc2VhcmNoUmVzdWx0IiwKICAgICAgImV0YWciOiAiMjhMREpWX0JZUG9tN1Vwc1VVSlN2Uy1mSkNvIiwKICAgICAgImlkIjogewogICAgICAgICJraW5kIjogInlvdXR1YmUjdmlkZW8iLAogICAgICAgICJ2aWRlb0lkIjogIm5oLUNUNEZSSUNnIgogICAgICB9LAogICAgICAic25pcHBldCI6IHsKICAgICAgICAicHVibGlzaGVkQXQiOiAiMjAyMy0xMS0xMFQwMTo0Nzo1N1oiLAogICAgICAgICJjaGFubmVsSWQiOiAiVUNsdVE1eUluYmVBa2tlQ25kTm5VaHB3IiwKICAgICAgICAidGl0bGUiOiAiQSBTdXBlciBRdWljayBIaXN0b3J5IG9mIFNvdXRoIFN1ZGFuIiwKICAgICAgICAiZGVzY3JpcHRpb24iOiAiU291cmNlczogQSBIaXN0b3J5IG9mIFNvdXRoIFN1ZGFuICgyMDE2KSBieSDDmHlzdGVpbiBILiBSb2xhbmRzZW4gYW5kIE0uIFcuIERhbHkuIENhbWJyaWRnZSBVbml2ZXJzaXR5IFByZXNzLCBVSy4iLAogICAgICAgICJ0aHVtYm5haWxzIjogewogICAgICAgICAgImRlZmF1bHQiOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9uaC1DVDRGUklDZy9kZWZhdWx0LmpwZyIsCiAgICAgICAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgICAgICAgImhlaWdodCI6IDkwCiAgICAgICAgICB9LAogICAgICAgICAgIm1lZGl1bSI6IHsKICAgICAgICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL25oLUNUNEZSSUNnL21xZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiAzMjAsCiAgICAgICAgICAgICJoZWlnaHQiOiAxODAKICAgICAgICAgIH0sCiAgICAgICAgICAiaGlnaCI6IHsKICAgICAgICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL25oLUNUNEZSSUNnL2hxZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiA0ODAsCiAgICAgICAgICAgICJoZWlnaHQiOiAzNjAKICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgICJjaGFubmVsVGl0bGUiOiAiTXIgSGlzdG9yeSIsCiAgICAgICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiLAogICAgICAgICJwdWJsaXNoVGltZSI6ICIyMDIzLTExLTEwVDAxOjQ3OjU3WiIKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgImtpbmQiOiAieW91dHViZSNzZWFyY2hSZXN1bHQiLAogICAgICAiZXRhZyI6ICJ5dVZPRnlCQmNjU1BPNjc4ZUlUa0JmYUlLQmsiLAogICAgICAiaWQiOiB7CiAgICAgICAgImtpbmQiOiAieW91dHViZSN2aWRlbyIsCiAgICAgICAgInZpZGVvSWQiOiAidFh1aXRrWFlJRWMiCiAgICAgIH0sCiAgICAgICJzbmlwcGV0IjogewogICAgICAgICJwdWJsaXNoZWRBdCI6ICIyMDIyLTA5LTI2VDA4OjE4OjI3WiIsCiAgICAgICAgImNoYW5uZWxJZCI6ICJVQ2x1UTV5SW5iZUFra2VDbmROblVocHciLAogICAgICAgICJ0aXRsZSI6ICJBIFN1cGVyIFF1aWNrIEhpc3Rvcnkgb2YgT21hbiIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIlBpY3R1cmVzIFJlcXVpcmluZyBBdHRyaWJ1dGlvbjogR2VvVHJpbml0eTogLi4uIiwKICAgICAgICAidGh1bWJuYWlscyI6IHsKICAgICAgICAgICJkZWZhdWx0IjogewogICAgICAgICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvdFh1aXRrWFlJRWMvZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiAxMjAsCiAgICAgICAgICAgICJoZWlnaHQiOiA5MAogICAgICAgICAgfSwKICAgICAgICAgICJtZWRpdW0iOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS90WHVpdGtYWUlFYy9tcWRlZmF1bHQuanBnIiwKICAgICAgICAgICAgIndpZHRoIjogMzIwLAogICAgICAgICAgICAiaGVpZ2h0IjogMTgwCiAgICAgICAgICB9LAogICAgICAgICAgImhpZ2giOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS90WHVpdGtYWUlFYy9ocWRlZmF1bHQuanBnIiwKICAgICAgICAgICAgIndpZHRoIjogNDgwLAogICAgICAgICAgICAiaGVpZ2h0IjogMzYwCiAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICAiY2hhbm5lbFRpdGxlIjogIk1yIEhpc3RvcnkiLAogICAgICAgICJsaXZlQnJvYWRjYXN0Q29udGVudCI6ICJub25lIiwKICAgICAgICAicHVibGlzaFRpbWUiOiAiMjAyMi0wOS0yNlQwODoxODoyN1oiCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJraW5kIjogInlvdXR1YmUjc2VhcmNoUmVzdWx0IiwKICAgICAgImV0YWciOiAiR3BRN09KMUJPTUNqN05vMnZjTXZfRUN1TE1zIiwKICAgICAgImlkIjogewogICAgICAgICJraW5kIjogInlvdXR1YmUjdmlkZW8iLAogICAgICAgICJ2aWRlb0lkIjogImhJTU5pZ2dGVXhzIgogICAgICB9LAogICAgICAic25pcHBldCI6IHsKICAgICAgICAicHVibGlzaGVkQXQiOiAiMjAyMy0wOC0wNlQxMzo1MTowMloiLAogICAgICAgICJjaGFubmVsSWQiOiAiVUNsdVE1eUluYmVBa2tlQ25kTm5VaHB3IiwKICAgICAgICAidGl0bGUiOiAiQSBTdXBlciBRdWljayBIaXN0b3J5IG9mIFNpbmdhcG9yZSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIlBpY3R1cmVzOiBodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9GaWxlOk1hbGFjY2FfU3VsdGFuYXRlX2VuLnN2ZyAuLi4iLAogICAgICAgICJ0aHVtYm5haWxzIjogewogICAgICAgICAgImRlZmF1bHQiOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9oSU1OaWdnRlV4cy9kZWZhdWx0LmpwZyIsCiAgICAgICAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgICAgICAgImhlaWdodCI6IDkwCiAgICAgICAgICB9LAogICAgICAgICAgIm1lZGl1bSI6IHsKICAgICAgICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL2hJTU5pZ2dGVXhzL21xZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiAzMjAsCiAgICAgICAgICAgICJoZWlnaHQiOiAxODAKICAgICAgICAgIH0sCiAgICAgICAgICAiaGlnaCI6IHsKICAgICAgICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL2hJTU5pZ2dGVXhzL2hxZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiA0ODAsCiAgICAgICAgICAgICJoZWlnaHQiOiAzNjAKICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgICJjaGFubmVsVGl0bGUiOiAiTXIgSGlzdG9yeSIsCiAgICAgICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiLAogICAgICAgICJwdWJsaXNoVGltZSI6ICIyMDIzLTA4LTA2VDEzOjUxOjAyWiIKICAgICAgfQogICAgfSwKICAgIHsKICAgICAgImtpbmQiOiAieW91dHViZSNzZWFyY2hSZXN1bHQiLAogICAgICAiZXRhZyI6ICJKako4ZFBtOFJveVpaVkhRWFFZNXBFSmVkTkkiLAogICAgICAiaWQiOiB7CiAgICAgICAgImtpbmQiOiAieW91dHViZSN2aWRlbyIsCiAgICAgICAgInZpZGVvSWQiOiAiSTVhUWJybG00TVUiCiAgICAgIH0sCiAgICAgICJzbmlwcGV0IjogewogICAgICAgICJwdWJsaXNoZWRBdCI6ICIyMDIxLTA1LTMwVDIyOjU5OjUxWiIsCiAgICAgICAgImNoYW5uZWxJZCI6ICJVQ2x1UTV5SW5iZUFra2VDbmROblVocHciLAogICAgICAgICJ0aXRsZSI6ICJBIFN1cGVyIFF1aWNrIEhpc3Rvcnkgb2YgSmFtYWljYSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkF1ZGlvIFJlcXVpcmluZyBBdHRyaWJ1dGlvbjogQmVhY2ggUGFydHkgYnkgS2V2aW4gTWFjTGVvZCBodHRwOi8vaW5jb21wZXRlY2guY29tIENyZWF0aXZlIENvbW1vbnMg4oCUIEF0dHJpYnV0aW9uIDQuMCAuLi4iLAogICAgICAgICJ0aHVtYm5haWxzIjogewogICAgICAgICAgImRlZmF1bHQiOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9JNWFRYnJsbTRNVS9kZWZhdWx0LmpwZyIsCiAgICAgICAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgICAgICAgImhlaWdodCI6IDkwCiAgICAgICAgICB9LAogICAgICAgICAgIm1lZGl1bSI6IHsKICAgICAgICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0k1YVFicmxtNE1VL21xZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiAzMjAsCiAgICAgICAgICAgICJoZWlnaHQiOiAxODAKICAgICAgICAgIH0sCiAgICAgICAgICAiaGlnaCI6IHsKICAgICAgICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0k1YVFicmxtNE1VL2hxZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiA0ODAsCiAgICAgICAgICAgICJoZWlnaHQiOiAzNjAKICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgICJjaGFubmVsVGl0bGUiOiAiTXIgSGlzdG9yeSIsCiAgICAgICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiLAogICAgICAgICJwdWJsaXNoVGltZSI6ICIyMDIxLTA1LTMwVDIyOjU5OjUxWiIKICAgICAgfQogICAgfQogIF0KfQo=
-  recorded_at: Tue, 05 Mar 2024 19:35:11 GMT
-- request:
-    method: get
     uri: https://api.pexels.com/v1/search?per_page=10&query=&size=medium
     body:
       encoding: US-ASCII
@@ -66,7 +21,7 @@ http_interactions:
       message: Bad Request
     headers:
       Date:
-      - Tue, 05 Mar 2024 19:35:11 GMT
+      - Tue, 05 Mar 2024 20:20:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -74,7 +29,7 @@ http_interactions:
       Connection:
       - keep-alive
       Cf-Ray:
-      - 85fc8c3a68fe519e-DEN
+      - 85fccedd6ccd7b15-DEN
       Cf-Cache-Status:
       - MISS
       Access-Control-Allow-Origin:
@@ -88,18 +43,18 @@ http_interactions:
       X-Ratelimit-Limit:
       - '25000'
       X-Ratelimit-Remaining:
-      - '24954'
+      - '24932'
       X-Ratelimit-Reset:
       - '1712257988'
       X-Request-Id:
-      - 3fb712f7-d91f-42a8-ab98-b836d888d802
+      - b36157d8-bf34-4c9e-bec1-7fce7aae4ceb
       X-Runtime:
-      - '0.012698'
+      - '0.003130'
       X-Server:
-      - anteater
+      - caterpillar
       Set-Cookie:
-      - __cf_bm=_PcePlXjaGTAivK0jVFXud2GHTy7shOcdLE54abhSiM-1709667311-1.0.1.1-fKQ5uJtrZtcMKVTfZiG1r5ftJRQd6aRhnGr.Oiexvhjuys95TCsYjqiHMfQEOrf._FfyglYdwpvkGlnz3szLjQ;
-        path=/; expires=Tue, 05-Mar-24 20:05:11 GMT; domain=.pexels.com; HttpOnly;
+      - __cf_bm=nyGWTD6TxqBAtLEL_mM0LjcgcRbH8Ps1uIrHrksum7E-1709670041-1.0.1.1-ZSwnsBNZPITDKB._D9Zq.JY9O7Lh15_VcJOE5lYybhmfC42JH5K3N0SkKUa3quD.gwscA7b24Pfg4_Tp7Vf4Ew;
+        path=/; expires=Tue, 05-Mar-24 20:50:41 GMT; domain=.pexels.com; HttpOnly;
         Secure; SameSite=None
       Vary:
       - Accept-Encoding
@@ -110,5 +65,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":400,"code":"No query param given"}'
-  recorded_at: Tue, 05 Mar 2024 19:35:11 GMT
+  recorded_at: Tue, 05 Mar 2024 20:20:41 GMT
 recorded_with: VCR 6.2.0
