@@ -4,7 +4,7 @@ RSpec.describe "Session", type: :request do
 
   describe "POST /api/v1/sessions" do
     it "creates a new user" do
-      user = User.create(name: "Bowser", email: "bowser1@gmail.com", password: "ilovepeach1", password_confirmation: "ilovepeach1")
+      user = User.create!(name: "Bowser", email: "bowser1@gmail.com", password: "ilovepeach1", password_confirmation: "ilovepeach1")
 
       post "/api/v1/sessions", params: {
         email: user.email,
