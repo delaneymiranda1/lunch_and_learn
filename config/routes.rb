@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :recipes, only: [:index]
+      get '/learning_resources', to: 'countries#show', as: 'country'
     end
+    
   end
 end
