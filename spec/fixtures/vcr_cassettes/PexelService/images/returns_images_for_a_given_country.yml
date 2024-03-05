@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/search?per_page=10&query=thailand&size=medium
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - pM242lEwV1dJUkkpY3gutJBOK2I3or2LU7QHmFvvKKLyl8WTMEkDZSZX
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 05 Mar 2024 19:20:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cf-Ray:
+      - 85fc76c1f9ef51ef-DEN
+      Cf-Cache-Status:
+      - HIT
+      Access-Control-Allow-Origin:
+      - "*"
+      Age:
+      - '443'
+      Cache-Control:
+      - max-age=86400
+      Etag:
+      - W/"020dafbdffbe80369aca33d4ac2eb624"
+      Expires:
+      - Wed, 06 Mar 2024 19:20:32 GMT
+      Access-Control-Allow-Headers:
+      - Accept, Content-Type, Content-Length, Accept-Encoding, Authorization, User-Agent
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Ratelimit-Limit:
+      - '25000'
+      X-Ratelimit-Remaining:
+      - '24979'
+      X-Ratelimit-Reset:
+      - '1712257988'
+      X-Request-Id:
+      - 410fdc09-90d1-4896-9631-02163a4b013c
+      X-Runtime:
+      - '0.073043'
+      X-Server:
+      - bulldog
+      Set-Cookie:
+      - __cf_bm=_Q_LD4940uhEu9THwocgGa40ZwN5SpTYVJsZo5diAm0-1709666432-1.0.1.1-ABMnDWRzL4TAv6K99mwnvIzLN6HG9TgvzgYzdVDUJbK8z1bR3q1DLukc4Yuz6TUNbP0yb1AUZiIepRlmYfMmeA;
+        path=/; expires=Tue, 05-Mar-24 19:50:32 GMT; domain=.pexels.com; HttpOnly;
+        Secure; SameSite=None
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":1,"per_page":10,"photos":[{"id":2070485,"width":4000,"height":6000,"url":"https://www.pexels.com/photo/woman-wearing-blue-dress-with-umbrella-during-sunset-2070485/","photographer":"Oleksandr
+        P","photographer_url":"https://www.pexels.com/@freestockpro","photographer_id":100512,"avg_color":"#5B4E37","src":{"original":"https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg","large2x":"https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Woman
+        Wearing Blue Dress With Umbrella during Sunset"},{"id":1929611,"width":4000,"height":6000,"url":"https://www.pexels.com/photo/building-with-lights-1929611/","photographer":"Oleksandr
+        P","photographer_url":"https://www.pexels.com/@freestockpro","photographer_id":100512,"avg_color":"#413736","src":{"original":"https://images.pexels.com/photos/1929611/pexels-photo-1929611.jpeg","large2x":"https://images.pexels.com/photos/1929611/pexels-photo-1929611.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/1929611/pexels-photo-1929611.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/1929611/pexels-photo-1929611.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/1929611/pexels-photo-1929611.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/1929611/pexels-photo-1929611.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/1929611/pexels-photo-1929611.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/1929611/pexels-photo-1929611.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Building
+        With Lights"},{"id":937465,"width":5184,"height":3456,"url":"https://www.pexels.com/photo/photo-of-golden-gautama-buddha-937465/","photographer":"Suraphat
+        Nuea-on","photographer_url":"https://www.pexels.com/@suraphat","photographer_id":327013,"avg_color":"#9A9E97","src":{"original":"https://images.pexels.com/photos/937465/pexels-photo-937465.jpeg","large2x":"https://images.pexels.com/photos/937465/pexels-photo-937465.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/937465/pexels-photo-937465.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/937465/pexels-photo-937465.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/937465/pexels-photo-937465.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/937465/pexels-photo-937465.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/937465/pexels-photo-937465.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/937465/pexels-photo-937465.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Photo
+        of Golden Gautama Buddha"},{"id":1031698,"width":2832,"height":4256,"url":"https://www.pexels.com/photo/aerial-photo-of-vehicles-in-the-city-1031698/","photographer":"Oleksandr
+        P","photographer_url":"https://www.pexels.com/@freestockpro","photographer_id":100512,"avg_color":"#5C6568","src":{"original":"https://images.pexels.com/photos/1031698/pexels-photo-1031698.jpeg","large2x":"https://images.pexels.com/photos/1031698/pexels-photo-1031698.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/1031698/pexels-photo-1031698.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/1031698/pexels-photo-1031698.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/1031698/pexels-photo-1031698.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/1031698/pexels-photo-1031698.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/1031698/pexels-photo-1031698.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/1031698/pexels-photo-1031698.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Aerial
+        Photo of  vehicles in the city"},{"id":1031780,"width":4256,"height":2832,"url":"https://www.pexels.com/photo/pile-of-shrimps-on-plates-1031780/","photographer":"Oleksandr
+        P","photographer_url":"https://www.pexels.com/@freestockpro","photographer_id":100512,"avg_color":"#785027","src":{"original":"https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg","large2x":"https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Pile
+        of Shrimps on Plates"},{"id":176398,"width":4572,"height":3047,"url":"https://www.pexels.com/photo/brown-wooden-docked-boat-at-daytime-176398/","photographer":"Miro
+        Alt","photographer_url":"https://www.pexels.com/@miroalt","photographer_id":48631,"avg_color":"#B7A391","src":{"original":"https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg","large2x":"https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Brown
+        Wooden Docked Boat at Daytime"},{"id":1682748,"width":3024,"height":4032,"url":"https://www.pexels.com/photo/photo-of-motorcycle-1682748/","photographer":"Ingo
+        Joseph","photographer_url":"https://www.pexels.com/@ingo","photographer_id":3,"avg_color":"#686A66","src":{"original":"https://images.pexels.com/photos/1682748/pexels-photo-1682748.jpeg","large2x":"https://images.pexels.com/photos/1682748/pexels-photo-1682748.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/1682748/pexels-photo-1682748.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/1682748/pexels-photo-1682748.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/1682748/pexels-photo-1682748.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/1682748/pexels-photo-1682748.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/1682748/pexels-photo-1682748.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/1682748/pexels-photo-1682748.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Photo
+        Of Motorcycle"},{"id":208444,"width":6000,"height":4000,"url":"https://www.pexels.com/photo/blue-and-beige-pagoda-tower-beside-forest-208444/","photographer":"Pixabay","photographer_url":"https://www.pexels.com/@pixabay","photographer_id":2659,"avg_color":"#647F7F","src":{"original":"https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg","large2x":"https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Blue
+        and Beige Pagoda Tower Beside Forest"},{"id":1368042,"width":5462,"height":3641,"url":"https://www.pexels.com/photo/pineapple-beside-pink-flower-1368042/","photographer":"Surawitch
+        Atsaradorn","photographer_url":"https://www.pexels.com/@surawitch-atsaradorn-590571","photographer_id":590571,"avg_color":"#8C9698","src":{"original":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg","large2x":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/1368042/pexels-photo-1368042.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Pineapple
+        Beside Pink Flower"},{"id":2108831,"width":4643,"height":2790,"url":"https://www.pexels.com/photo/tourists-riding-a-boat-2108831/","photographer":"Streetwindy","photographer_url":"https://www.pexels.com/@streetwindy","photographer_id":258084,"avg_color":"#958C83","src":{"original":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg","large2x":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940","large":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940","medium":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350","small":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130","portrait":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800","landscape":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200","tiny":"https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"},"liked":false,"alt":"Tourists
+        Riding a Boat"}],"total_results":1271,"next_page":"https://api.pexels.com/v1/search/?page=2\u0026per_page=10\u0026query=thailand\u0026size=medium"}'
+  recorded_at: Tue, 05 Mar 2024 19:20:32 GMT
+recorded_with: VCR 6.2.0
