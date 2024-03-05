@@ -32,7 +32,7 @@ RSpec.describe "Api::V1::Recipes", type: :request do
       expect(response).to be_successful
       json_response = JSON.parse(response.body, symbolize_names: true)
       
-      expect(json_response[:data][1][:type]).to eq "recipe"
+      expect(json_response[:data][1][:type]).to eq("recipe")
     end
 
     it "returns empty array if country given doesn't return recipes", :vcr do
