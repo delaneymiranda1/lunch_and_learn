@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/search?per_page=10&query=&size=medium
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - pM242lEwV1dJUkkpY3gutJBOK2I3or2LU7QHmFvvKKLyl8WTMEkDZSZX
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Wed, 06 Mar 2024 06:20:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cf-Ray:
+      - 86003d90cdcc518e-DEN
+      Cf-Cache-Status:
+      - MISS
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=86400
+      Access-Control-Allow-Headers:
+      - Accept, Content-Type, Content-Length, Accept-Encoding, Authorization, User-Agent
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Ratelimit-Limit:
+      - '25000'
+      X-Ratelimit-Remaining:
+      - '24749'
+      X-Ratelimit-Reset:
+      - '1712257988'
+      X-Request-Id:
+      - 7c6a063e-c789-471a-8686-584c71219785
+      X-Runtime:
+      - '0.004002'
+      X-Server:
+      - bulldog
+      Set-Cookie:
+      - __cf_bm=bqlDXjGQC__rYdm0s.QkFiMhYBw1ICIVIk9fFpT8u2I-1709706032-1.0.1.1-VnKF5eU0itra6Y8zSH0SYlWF4cqq39txLs2o.fuKDJbMyeTiB6M.S89pD.XrVLbjpD5GXYe2i.2li2RG9rcm1A;
+        path=/; expires=Wed, 06-Mar-24 06:50:32 GMT; domain=.pexels.com; HttpOnly;
+        Secure; SameSite=None
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"status":400,"code":"No query param given"}'
+  recorded_at: Wed, 06 Mar 2024 06:20:32 GMT
+recorded_with: VCR 6.2.0

@@ -3,29 +3,56 @@ require "rails_helper"
 RSpec.describe "Session", type: :request do
 
   describe "POST /api/v1/sessions" do
-    it "creates a new user" do
-      user = User.create!(name: "Bowser", email: "bowser1@gmail.com", password: "ilovepeach1", password_confirmation: "ilovepeach1")
+    it "logs in a user" do
+      user_params = {
+          "name": "Odell", 
+          "email": "goodboy@ruffruff.com",
+          "password": "treats4lyf"
+      }
 
-      post "/api/v1/sessions", params: {
-        email: user.email,
-        password: user.password
-      }.to_json, headers: { "Content-Type" => "application/json", "Accept" => "application/json" }
+      user = User.create!(user_params)
+
+      headers = { "CONTENT_TYPE" => "application/json",
+        "ACCEPT" => "application/json"
+      }
+
+      post "/api/v1/sessions", headers: headers, params: user_params.to_json
 
       json_response = JSON.parse(response.body, symbolize_names: true)
-      # require 'pry'; binding.pry ... this test is working properly but the postman request is not
+      
       expect(response.status).to eq(200)
-      expect(json_response[:data][:attributes][:name]).to eq('Bowser')
+      expect(json_response).to be_a(Hash)
+      expect(json_response).to have_key(:data)
+      expect(json_response[:data]).to have_key(:id)
+      expect(json_response[:data]).to have_key(:type)
+      expect(json_response[:data]).to have_key(:attributes)
+      expect(json_response[:data][:attributes]).to have_key(:name)
+      expect(json_response[:data][:attributes]).to have_key(:email)
+      expect(json_response[:data][:attributes]).to have_key(:api_key)
+      expect(json_response[:data][:attributes][:name]).to eq('Odell')
       expect(json_response[:data][:attributes][:api_key]).to_not be_nil
     end
 
     it "throws error if password is not correct" do
-      user = User.create!(name: "Yoshi", email: "yoshi1@gmail.com", password: "yoshii1", password_confirmation: "yoshii1")
+      user_params = {
+        "name": "Odell",
+        "email": "goodboy@ruffruff.com",
+        "password": "treats4lyf"
+      }
+  
+      user = User.create!(user_params)
 
-      post "/api/v1/sessions", params: {
-        email: user.email,
-        password: "yoshiiii1"
-      }.to_json, headers: { "Content-Type" => "application/json", "Accept" => "application/json" }
-
+      bad_params = {
+        "name": "Odell",
+        "email": "goodboy@ruffruff.com",
+        "password": "treats4lyffff"
+      }
+  
+      headers = { "CONTENT_TYPE" => "application/json",
+        "ACCEPT" => "application/json"
+      }
+  
+      post '/api/v1/sessions', headers: headers, params: bad_params.to_json 
       json_response = JSON.parse(response.body, symbolize_names: true)
 
       expect(response.status).to eq(401)
@@ -33,12 +60,25 @@ RSpec.describe "Session", type: :request do
     end
 
     it "throws error if email is not correct" do
-      user = User.create!(name: "Peach", email: "peach1@gmail.com", password: "ihatebowser1", password_confirmation: "ihatebowser1")
-      
-      post "/api/v1/sessions", params: {
-        email: "peach@gmail.com",
-        password: user.password
-      }.to_json, headers: { "Content-Type" => "application/json", "Accept" => "application/json" }
+      user_params = {
+        "name": "Odell",
+        "email": "goodboy@ruffruff.com",
+        "password": "treats4lyf"
+      }
+  
+      user = User.create!(user_params)
+
+      bad_params = {
+        "name": "Odell",
+        "email": "badboy@ruffruff.com",
+        "password": "treats4lyf"
+      }
+  
+      headers = { "CONTENT_TYPE" => "application/json",
+        "ACCEPT" => "application/json"
+      }
+  
+      post '/api/v1/sessions', headers: headers, params: bad_params.to_json 
 
       json_response = JSON.parse(response.body, symbolize_names: true)
 
