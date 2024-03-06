@@ -2,7 +2,7 @@
 
 Users may use this app to explore recipes by country, add recipes to their "favorites" and indulge themselves in learning resources for desired countries.
 
-# Learning Goals
+## Learning Goals
 
 * Expose an API that aggregates data from multiple external APIs
 * Expose an API that requires an authentication token
@@ -13,9 +13,21 @@ Users may use this app to explore recipes by country, add recipes to their "favo
 
 ## How to set up the application
 
-git@github.com:delaneymiranda1/lunch_and_learn.git
+```Git clone git@github.com:delaneymiranda1/lunch_and_learn.git```
 
-## API key instructions
+```bundle install```
 
+### Sources for API keys needed
 
-### Happy path endpoint use
+* https://developer.edamam.com/edamam-recipe-api
+* https://developers.google.com/youtube/v3/getting-started
+* https://www.pexels.com/api/
+
+## Happy path endpoint use
+
+* Get Recipes For A Particular Country (GET /api/v1/recipes?country=thailand)
+* Get Learning Resources for a Particular Country (GET /api/v1/learning_resources?country=italy)
+* User Registration (POST /api/v1/users)
+* Log In User (POST /api/v1/sessions)
+* Add Favorites (POST /api/v1/favorites)
+* Get a User's Favorites (GET /api/v1/favorites?api_key=<USER API KEY>)
