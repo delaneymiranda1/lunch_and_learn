@@ -11,7 +11,7 @@ RSpec.describe "Favorites", type: :request do
         recipe_link: "https://www.seriouseats.com/recipes/2013/11/andy-rickers-naam-cheuam-naam-taan-piip-palm-sugar-simple-syrup.html",
         recipe_title: "Andy Ricker's Naam Cheuam Naam Taan Piip (Palm Sugar Simple Syrup)"
       }.to_json
-
+      
       post "/api/v1/favorites", params: params, headers: { "Content-Type" => "application/json", "Accept" => "application/json" }
       
       json_response = JSON.parse(response.body, symbolize_names: true)
@@ -37,6 +37,23 @@ RSpec.describe "Favorites", type: :request do
       expect(response).to have_http_status(:unauthorized)
       expect(response.status).to eq(401)
       expect(json_response[:error]).to eq("Invalid API Key")
+    end
+  end
+
+  describe "GET /api/v1/favorites" do
+    it "returns all favorites belonging to a user" do
+      user = User.create!(name: "Goomba", email: "goomba1@gmail.com", password: "goo123", password_confirmation: "goo123")
+      favorite1 = user.favorites.create!(country: "Thailand", recipe_link: "https://www.seriouseats.com/recipes/2013/11/andy-rickers-naam-cheuam-naam-taan-piip-palm-sugar-simple-syrup.html", recipe_title: "Andy Ricker's Naam Cheuam Naam Taan Piip (Palm Sugar Simple Syrup)")
+      favorite2 = user.favorites.create!(country: "China", recipe_link: "https://food52.com/recipes/81155-peach-tart-with-amer", recipe_title: "Peach Tart with Amer")
+      get "/api/v1/favorites?api_key=#{user.api_key}", headers: { "Content-Type" => "application/json", "Accept" => "application/json" }
+
+      json_response = JSON.parse(response.body, symbolize_names: true)
+
+      expect(response).to be_successful
+
+      expect(json_response[:data][:type]).to eq("favorite")
+      expect(json_response[:data].first[:attributes][:recipe_title]).to eq("Andy Ricker's Naam Cheuam Naam Taan Piip (Palm Sugar Simple Syrup)")
+      expect(json_response[:data].last[:attributes][:recipe_title]).to eq("Peach Tart with Amer")
     end
   end
 end
